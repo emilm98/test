@@ -1,0 +1,10 @@
+#Opgave 13 modul 2.2
+TalList = []
+antalTal = input("Hvor mange tal vil du have i listen? ")
+maxLengthList = int(antalTal)
+while len(TalList) < maxLengthList:
+    tal = input("Tilføj et tal til listen: ")
+    TalList.append(int(tal))
+print("Færdige liste: ", (TalList))
+print("Største tal: ", max(TalList),"\nMindste tal: ", min(TalList),"\nSum: ", sum(TalList))
+
